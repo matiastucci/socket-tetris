@@ -1,0 +1,43 @@
+<ion-view view-title="Controls">
+  <ion-content class="padding" locking="false" scroll="false" has-bouncing="false">
+    
+    <div ng-show="data.showDragZone">
+      <p style="text-align:center;">Swipe inside the bordered area</p>
+      <div id="drag-zone" ng-show="data.showDragZone"></div>
+    </div>
+    
+    <div style="text-align: center" ng-show="!data.showDragZone">
+      
+      <div class="row">
+        <div ng-click="up()" class="col col-33 col-offset-33">
+          <i class="icon arrow-icon ion-arrow-up-b"></i>  
+        </div>
+      </div>
+      
+      <div class="row">
+        <div ng-click="left()" class="col col-33">
+          <i class="icon arrow-icon ion-arrow-left-b"></i>
+        </div>
+        <div ng-click="right()" class="col col-33 col-offset-33">
+          <i class="icon arrow-icon ion-arrow-right-b"></i>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div ng-click="down()" class="col col-33 col-offset-33">
+          <i class="icon arrow-icon ion-arrow-down-b"></i>  
+        </div>
+      </div>
+      
+    </div>
+    
+    <button ng-show="data.showStartButton" ng-click="start()" class="button button-block button-positive">
+      Start Game
+    </button>
+    
+    <button ng-show="!data.showStartButton" ng-click="end()" class="button button-block button-positive">
+      End Game
+    </button>
+    
+  </ion-content>
+</ion-view>

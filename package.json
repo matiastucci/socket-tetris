@@ -1,0 +1,13 @@
+{
+  "name": "socket-tetris",
+  "version": "0.0.1",
+  "description": "socket-tetris",
+  "dependencies": {
+    "express": "^4.10.0",
+    "socket.io": "^1.1.0"
+  },
+  "devDependencies": {
+    "connect-history-api-fallback": "0.0.5",
+    "gulp-connect": "^2.2.0"
+  }
+}
