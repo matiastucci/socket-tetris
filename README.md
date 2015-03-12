@@ -1,6 +1,8 @@
 # Socket Tetris
 
-Control a Tetris [(Blockrain.js)](https://github.com/Aerolab/blockrain.js) using node.js and [Socket.IO](http://socket.io)
+Control a Tetris [(Blockrain.js)](https://github.com/Aerolab/blockrain.js) using node.js and [Socket.IO](http://socket.io).
+
+NOTE: Running it in your computer it's a better experience, because in Heroku it has 1sg (aprox) of delay.
 
 ## How to use
 
