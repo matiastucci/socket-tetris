@@ -1,5 +1,6 @@
 var socket = io.connect(),
-baseUrl = 'http://localhost:8080/mobile/#/tab/controls/',
+// baseUrl = 'http://localhost:8080/mobile/#/tab/controls/',
+baseUrl = 'https://socket-tetris.herokuapp.com/mobile/#/tab/controls/',
 code = Math.random().toString(36).replace(/[^a-z]+/g, '').substr(0, 5),
 $qrcode = $('#qrcode'),
 $game = $('#game'),

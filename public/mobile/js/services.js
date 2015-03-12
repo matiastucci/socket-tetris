@@ -2,7 +2,8 @@ angular.module('tetris.services', [])
 
 .factory('mySocket', function (socketFactory) {
   
-  var baseUrl = 'http://localhost:8080';
+  // var baseUrl = 'http://localhost:8080';
+  var baseUrl = 'https://socket-tetris.herokuapp.com:443';
   var myIoSocket = io.connect(baseUrl);
 
   mySocket = socketFactory({
