@@ -1,6 +1,6 @@
 # Socket Tetris
 
-Control a Tetris [Blockrain.js](https://github.com/Aerolab/blockrain.js) using node.js and [Socket.IO](http://socket.io)
+Control a Tetris [(Blockrain.js)](https://github.com/Aerolab/blockrain.js) using node.js and [Socket.IO](http://socket.io)
 
 ## How to use
 
